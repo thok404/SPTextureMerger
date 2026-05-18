@@ -62,19 +62,6 @@ dotnet build SPTextureMerger.sln
 dotnet run --project src/SPTextureMerger/SPTextureMerger.csproj
 ```
 
-Run the lightweight tests:
-
-```powershell
-dotnet run --project tests/SPTextureMerger.Tests/SPTextureMerger.Tests.csproj
-```
-
-Publish:
-
-```powershell
-dotnet publish src/SPTextureMerger/SPTextureMerger.csproj -c Release -r win-x64 --self-contained false -o publish/win-x64
-dotnet publish src/SPTextureMerger/SPTextureMerger.csproj -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true -p:PublishTrimmed=false -p:IncludeNativeLibrariesForSelfExtract=true -o publish/win-x64-self-contained
-```
-
 ## License
 
 MIT.
