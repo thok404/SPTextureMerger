@@ -1,0 +1,10 @@
+bin/
+obj/
+publish/
+release-assets/
+.vs/
+.dotnet/
+TestResults/
+*.user
+*.suo
+*.tmp
