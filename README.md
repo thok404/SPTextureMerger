@@ -8,10 +8,10 @@ It uses a mask guide for each row. The mask decides which pixels from that Textu
 
 ## Download
 
-Use one of the builds in `publish/`:
+Use one of the GitHub Release builds:
 
-- `publish/win-x64/SPTextureMerger.exe` - small build, needs .NET 8 Desktop Runtime.
-- `publish/win-x64-self-contained/SPTextureMerger.exe` - single-file build, no runtime install needed.
+- `SPTextureMerger-win-x64.zip` - small build, needs .NET 8 Desktop Runtime. Extract it first, then run `SPTextureMerger.exe`.
+- `SPTextureMerger-win-x64-self-contained.exe` - single-file build, no runtime install needed.
 
 ## Use It
 
